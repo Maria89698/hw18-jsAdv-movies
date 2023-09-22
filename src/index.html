@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="movies-form">
+        <label for="title">Назва:</label>
+        <input type="text" id="title" name="title">
+        <label for="genre">Жанр:</label>
+        <input type="text" id="genre" name="genre">
+        <label for="director">Режисер:</label>
+        <input type="text" id="director" name="director">
+        <label for="year">Рік:</label>
+        <input type="number" id="year" name="year">
+
+        <button type="submit">Додати фільм</button>
+    </form>
+    <h2>Фільми</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Назва</th>
+                <th>Жанр</th>
+                <th>Режисер</th>
+                <th>Рік</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody class="movies-table">
+
+        </tbody>
+    </table>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
